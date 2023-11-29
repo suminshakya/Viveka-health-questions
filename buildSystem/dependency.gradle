@@ -1,0 +1,17 @@
+ext {
+    bootStarter = "org.springframework.boot:spring-boot-starter"
+
+    developerTool = [
+            lombok            : "org.projectlombok:lombok",
+    ]
+
+    testing = [
+            jUnit      : "junit:junit:$jUnit",
+            bootStarter: "org.springframework.boot:spring-boot-starter-test",
+    ]
+
+    web = [
+            starterWeb    : "org.springframework.boot:spring-boot-starter-web",
+    ]
+
+}
