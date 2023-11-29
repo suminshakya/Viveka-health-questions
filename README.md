@@ -19,13 +19,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/suminshakya/Viveka-health-questions
+  git clone git@github.com:suminshakya/viveka-health-questions.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd VivekaHealthQuestion
+  cd viveka-health-questions
 ```
 
 Install dependencies
@@ -33,9 +33,9 @@ Install dependencies
 ```bash
   gradlew clean build
 ```
-
+Run Application
 ```bash
-  gradle bootRun
+  gradlew bootRun
 ```
 
 # Question No 1

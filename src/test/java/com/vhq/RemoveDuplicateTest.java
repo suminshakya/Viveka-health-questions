@@ -13,8 +13,11 @@ public class RemoveDuplicateTest {
         removeDuplicate.add(1);
         removeDuplicate.add(2);
         removeDuplicate.add(3);
+        removeDuplicate.add(3);
+        removeDuplicate.add(3);
 
 
-        System.out.println(removeDuplicate);
+        System.out.println("Expected Result :: " + removeDuplicate);
+
     }
 }
